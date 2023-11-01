@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dd_logo" />
+
+    <TextView
+        android:id="@+id/tvSelectedFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="click decide to select your meal" />
+
+
+    <EditText
+        android:id="@+id/edAddNewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSelectedFood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:hint="enter your favourite food"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnAddNewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edAddNewFood"
+        android:layout_centerHorizontal="true"
+        android:text="Add new food" />
+
+
+    <Button
+        android:id="@+id/btnDecide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Decide!"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
