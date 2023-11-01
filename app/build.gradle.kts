@@ -4,6 +4,7 @@ plugins {
     id ("kotlin-kapt")
 }
 
+
 android {
     namespace = "com.kotlincourse.assignment2"
     compileSdk = 34

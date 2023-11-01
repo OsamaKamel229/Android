@@ -5,8 +5,11 @@ import android.os.Bundle
 import android.widget.Toast
 import com.kotlincourse.assignment2.databinding.ActivityMainBinding
 import java.util.Random
-
+/*
+*     Osama Kamel 614193
+* */
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
     private var foodList = arrayListOf<String>("Hamburger", "Pizza", "Mexican", "American", "Chinese");
     override fun onCreate(savedInstanceState: Bundle?) {
